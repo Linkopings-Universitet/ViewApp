@@ -15,7 +15,7 @@
 // har bundits till propertyn helloButton. Genom att skriva self.helloButton i koden kan
 // man alltså komma åt knappen i gränssnittet. På samma sätt är händelse "Touch Up Inside",
 // som alltså motsvarar en enkel nedtryckning, bunden till metoden helloButtonPressed.
-// Kolla hur de olika konstruktionerna ser ut och lär dig dessa utantill. 
+// Kolla hur de olika konstruktionerna ser ut och lär dig dessa utantill.
 // Att göra dessa kopplingar är mer eller mindre bara mekaniskt arbete.
 //
 // När du känner dig bekväm med hur alla delar hänger ihop, lägg till ytterligare
@@ -35,11 +35,14 @@
 #pragma mark - User Interaction
 
 - (IBAction)helloButtonPressed {
-    [[[UIAlertView alloc] initWithTitle:@"Hello"
-                                message:@"World"
-                               delegate:nil
-                      cancelButtonTitle:@"Ok"
-                      otherButtonTitles:nil] show];
+    UIAlertController *alertViewController = [UIAlertController alertControllerWithTitle:@"Hello"
+                                                                                 message:@"World"
+                                                                          preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction *okButton = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:nil];
+    [alertViewController addAction:okButton];
+    
+    [self presentViewController:alertViewController animated:YES completion:nil];
 }
 
 #pragma mark - View lifecycle

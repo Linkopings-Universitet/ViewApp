@@ -40,11 +40,14 @@
 #pragma mark - User Interaction
 
 - (void)helloButtonPressed {
-    [[[UIAlertView alloc] initWithTitle:@"Hello"
-                                message:@"World"
-                               delegate:nil
-                      cancelButtonTitle:@"Ok"
-                      otherButtonTitles:nil] show];
+    UIAlertController *alertViewController = [UIAlertController alertControllerWithTitle:@"Hello"
+                                                                                 message:@"World"
+                                                                          preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction *okButton = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:nil];
+    [alertViewController addAction:okButton];
+    
+    [self presentViewController:alertViewController animated:YES completion:nil];
 }
 
 #pragma mark - View lifecycle
@@ -72,6 +75,7 @@
     [self.helloButton addTarget:self 
                          action:@selector(helloButtonPressed) 
                forControlEvents:UIControlEventTouchUpInside];
+    
     self.helloButton.autoresizingMask = UIViewAutoresizingFlexibleBottomMargin | UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin;
     [self.view addSubview:self.helloButton];
 }
