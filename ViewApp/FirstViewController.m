@@ -47,9 +47,5 @@
 
 #pragma mark - View lifecycle
 
-- (NSUInteger)supportedInterfaceOrientations {
-    // Retunera tillåtna orientations
-    return UIInterfaceOrientationMaskAllButUpsideDown;
-}
 
 @end

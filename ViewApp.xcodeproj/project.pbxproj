@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B13FCA641886AC57008FB67E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B13FCA631886AC57008FB67E /* Default-568h@2x.png */; };
 		D16EEBF314D9D98900CFDD60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D16EEBF214D9D98900CFDD60 /* UIKit.framework */; };
 		D16EEBF514D9D98900CFDD60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D16EEBF414D9D98900CFDD60 /* Foundation.framework */; };
 		D16EEBF714D9D98900CFDD60 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D16EEBF614D9D98900CFDD60 /* CoreGraphics.framework */; };
@@ -21,7 +20,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B13FCA631886AC57008FB67E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		D16EEBEE14D9D98900CFDD60 /* ViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D16EEBF214D9D98900CFDD60 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D16EEBF414D9D98900CFDD60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -85,8 +83,6 @@
 		D16EEBF814D9D98900CFDD60 /* ViewApp */ = {
 			isa = PBXGroup;
 			children = (
-				D16EEC0114D9D98900CFDD60 /* AppDelegate.h */,
-				D16EEC0214D9D98900CFDD60 /* AppDelegate.m */,
 				D16EEC0414D9D98900CFDD60 /* MainStoryboard.storyboard */,
 				D16EEC0F14D9D9E800CFDD60 /* FirstViewController.h */,
 				D16EEC1014D9D9E800CFDD60 /* FirstViewController.m */,
@@ -102,7 +98,8 @@
 		D16EEBF914D9D98900CFDD60 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B13FCA631886AC57008FB67E /* Default-568h@2x.png */,
+				D16EEC0114D9D98900CFDD60 /* AppDelegate.h */,
+				D16EEC0214D9D98900CFDD60 /* AppDelegate.m */,
 				D16EEBFA14D9D98900CFDD60 /* ViewApp-Info.plist */,
 				D16EEBFB14D9D98900CFDD60 /* InfoPlist.strings */,
 				D16EEBFE14D9D98900CFDD60 /* main.m */,
@@ -137,7 +134,7 @@
 		D16EEBE514D9D98800CFDD60 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Apps and Wonders";
 			};
 			buildConfigurationList = D16EEBE814D9D98800CFDD60 /* Build configuration list for PBXProject "ViewApp" */;
@@ -164,7 +161,6 @@
 			files = (
 				D16EEBFD14D9D98900CFDD60 /* InfoPlist.strings in Resources */,
 				D16EEC0614D9D98900CFDD60 /* MainStoryboard.storyboard in Resources */,
-				B13FCA641886AC57008FB67E /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,11 +211,15 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -250,10 +250,13 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
@@ -276,7 +279,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ViewApp/ViewApp-Prefix.pch";
 				INFOPLIST_FILE = "ViewApp/ViewApp-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "se.liu.725G60.lab3.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -289,7 +293,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ViewApp/ViewApp-Prefix.pch";
 				INFOPLIST_FILE = "ViewApp/ViewApp-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "se.liu.725G60.lab3.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

@@ -44,11 +44,5 @@
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:address]];
 }
 
-#pragma mark - View lifecycle
-
-- (NSUInteger)supportedInterfaceOrientations {
-    // Retunera tillåtna orientations
-    return UIInterfaceOrientationMaskAllButUpsideDown;
-}
 
 @end

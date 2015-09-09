@@ -80,9 +80,5 @@
     [self.view addSubview:self.helloButton];
 }
 
-- (NSUInteger)supportedInterfaceOrientations {
-    // Retunera tillåtna orientations
-    return UIInterfaceOrientationMaskAllButUpsideDown;
-}
 
 @end
