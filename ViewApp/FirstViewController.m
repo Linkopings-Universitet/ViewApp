@@ -30,6 +30,12 @@
 
 #import "FirstViewController.h"
 
+@interface FirstViewController ()
+
+@property (weak, nonatomic) IBOutlet UIButton *helloButton;
+
+@end
+
 @implementation FirstViewController
 
 #pragma mark - User Interaction

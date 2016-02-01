@@ -15,8 +15,7 @@
 		D16EEC0314D9D98900CFDD60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D16EEC0214D9D98900CFDD60 /* AppDelegate.m */; };
 		D16EEC0614D9D98900CFDD60 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D16EEC0414D9D98900CFDD60 /* MainStoryboard.storyboard */; };
 		D16EEC1114D9D9E800CFDD60 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16EEC1014D9D9E800CFDD60 /* FirstViewController.m */; };
-		D16EEC1414D9DAC500CFDD60 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16EEC1314D9DAC500CFDD60 /* SecondViewController.m */; };
-		D16EEC1714D9DAD000CFDD60 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16EEC1614D9DAD000CFDD60 /* ThirdViewController.m */; };
+		D16EEC1714D9DAD000CFDD60 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16EEC1614D9DAD000CFDD60 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,10 +32,8 @@
 		D16EEC0514D9D98900CFDD60 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		D16EEC0F14D9D9E800CFDD60 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		D16EEC1014D9D9E800CFDD60 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		D16EEC1214D9DAC500CFDD60 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		D16EEC1314D9DAC500CFDD60 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		D16EEC1514D9DAD000CFDD60 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
-		D16EEC1614D9DAD000CFDD60 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		D16EEC1514D9DAD000CFDD60 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D16EEC1614D9DAD000CFDD60 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,10 +83,8 @@
 				D16EEC0414D9D98900CFDD60 /* MainStoryboard.storyboard */,
 				D16EEC0F14D9D9E800CFDD60 /* FirstViewController.h */,
 				D16EEC1014D9D9E800CFDD60 /* FirstViewController.m */,
-				D16EEC1214D9DAC500CFDD60 /* SecondViewController.h */,
-				D16EEC1314D9DAC500CFDD60 /* SecondViewController.m */,
-				D16EEC1514D9DAD000CFDD60 /* ThirdViewController.h */,
-				D16EEC1614D9DAD000CFDD60 /* ThirdViewController.m */,
+				D16EEC1514D9DAD000CFDD60 /* SecondViewController.h */,
+				D16EEC1614D9DAD000CFDD60 /* SecondViewController.m */,
 				D16EEBF914D9D98900CFDD60 /* Supporting Files */,
 			);
 			path = ViewApp;
@@ -174,8 +169,7 @@
 				D16EEBFF14D9D98900CFDD60 /* main.m in Sources */,
 				D16EEC0314D9D98900CFDD60 /* AppDelegate.m in Sources */,
 				D16EEC1114D9D9E800CFDD60 /* FirstViewController.m in Sources */,
-				D16EEC1414D9DAC500CFDD60 /* SecondViewController.m in Sources */,
-				D16EEC1714D9DAD000CFDD60 /* ThirdViewController.m in Sources */,
+				D16EEC1714D9DAD000CFDD60 /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,8 +11,4 @@
 #import <UIKit/UIKit.h>
 
 @interface SecondViewController : UIViewController
-
-@property (nonatomic, weak) UIButton *helloButton;
-
-
 @end
