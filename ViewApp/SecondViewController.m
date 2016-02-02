@@ -8,15 +8,12 @@
 //  Copyright (c) 2012 Linköping University. All rights reserved.
 //
 
-//  I den här vy-kontrollern ska ni få träna på delegering. I appens nuvarande form
+//  I den här vy-kontrollern ska ni få träna på att använda block. I appens nuvarande form
 //  kommer man direkt till Safari när man klickar på en av knapparna. Något som kan
 //  vara önskvärt av användaren är någon form av bekräftelse innan appen stängs ner och
-//  Safari dyker upp. Ni ska därför skapa antingen en UIActionSheet eller en UIAlertView
-//  som ber om en bekräftelse när man tycker på de olika knapparna. Användaren ska kunna
+//  Safari dyker upp. Ni ska därför skapa en UIAlertController med antinen stilen ActionSheet
+//  eller Alert som ber om en bekräftelse när man tycker på de olika knapparna. Användaren ska kunna
 //  avbryta öppnandet av länken, eller gå vidare till den.
-
-//  Ett tips för att hålla reda på vilken actionsheet / alertview som kom från vilken knapp
-//  är att kolla på propertyn tag som finns i UIView och alla dess subklasser.
 
 #import "SecondViewController.h"
 
