@@ -1,7 +1,7 @@
 
-# ViewApp
+## ViewApp
 
-## UIView, UIViewController och Interface Builder
+### UIView, UIViewController och Interface Builder
 
 Alla appar som innehåller någonting grafiskt (det vill säga alla appar) är uppbyggda av vyer och vy-kontroller. En vy (view) kan ses som en grafisk rityta. Den har en storlek, position och kan innehålla andra vyer samt egenutritad data. Alla färdiga komponenter, såsom knappar och textrutor, är i grund och botten vyer men är även utökad med mer funktionalitet. En vy-kontroller (view-controller) innehåller styrlogik som bestämmer vad vyn ska göra. Om vyn till exempel är en knapp så skulle styrlogiken (som då skulle ligga i en vy-kontroller) kunna vara koden som bestämmer vad som händer när användaren trycker på knappen.
 
@@ -9,9 +9,9 @@ Som uppmärksam läsare har du säkert redan listat ut att det är designmöntre
 
 Att som programmerare sitta och försöka lista ut exakt hur stor en viss komponent ska vara eller var den ska placeras är ett ganska omständigt och tråkigt arbete. För att göra detta enklare kan du med hjälp av storyboards designa ditt gränsnitt grafiskt (UI-designläget i XCode var tidigare en separat applikation som hette Interface Builder). Med Interface Builder kan du bygga grafiska gränssnitt enligt traditionella drag-och-släpp-metoder. För att få element att hamna på den plats man vill i runtime så måste man definera constraints och detta görs med auto layout.
 
-## Förberedelser
+### Förberedelser
 
-### Länkar
+#### Länkar
 
 * Läsa
 	* Guider 
@@ -39,7 +39,7 @@ Att som programmerare sitta och försöka lista ut exakt hur stor en viss kompon
 
 [working-with-blocks]:https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/WorkingwithBlocks/WorkingwithBlocks.html
 
-### Förberedelseuppgifter / frågor
+#### Förberedelseuppgifter / frågor
 
 Inga frågor är märkta för att redovisas till denna uppgift.
 
@@ -50,7 +50,7 @@ Inga frågor är märkta för att redovisas till denna uppgift.
 5. På samma sätt som du kopplar samman en vy med en property så kopplar du ihop händelser med metoder, så att till exempel en viss metod anropas när en knapp trycks ned. För att göra detta i Interface Builder används nyckelordet IBAction. Hur används IBAction? Betyder nyckelordet någonting? Hur gör du sammankopplingen mellan en händelse och en metod? Beskriv hur du gör både via Interface Builder och i kod. Vilken händelse används vanligen för ett vanligt tryck på skärmen?
 6. Vilken metod i UIViewController använder du i allmänhet för att initiera egna variabler och data?
 
-## Uppgift
+### Uppgift
 
 I det färdiga programmet ska du öva på att använda Interface Builder för att bygga gränssnitt. Du kommer även att få testa på att använda dig av block. Det finns en del given kod men en hel del ska du komplettera med själv.
 
@@ -58,6 +58,6 @@ Innan du börjar skriva någon kod eller ändrar på någonting, läs noga igeno
 
 [ViewApp](https://github.com/Linkopings-Universitet/ViewApp)
 
-## Redovisning
+### Redovisning
 
 Packa ihop det modifierade projektet och skicka fil och svaren på förberedelseuppgifterna till din handledare. Ange '725G72 - Laboration 3 - Redovisning' som ämne. Skriv med vad du har för LiU-id (t ex abcde123) om du inte mailar från din studentadress.
