@@ -23,9 +23,16 @@ Att som programmerare sitta och försöka lista ut exakt hur stor en viss kompon
 		* [UIView][uiview]
 		* [UIViewController][uiview-controller]
 * Screencasts
-	* Auto layout
-	* vy kontroller
-	* vy
+	* [Auto layout][auto-layout]
+	* [Vykontroller][vykontroller]
+	* [Vyer][vyer]
+
+
+[vyer]:http://www.ida.liu.se/~725G72/material/screencasts/vyer.mp4
+
+[vykontroller]:http://www.ida.liu.se/~725G72/material/screencasts/vykontroller.mp4
+
+[auto-layout]:http://www.ida.liu.se/~725G72/material/screencasts/autolayout.mp4
 
 [uiview]:https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIView_Class/
 
